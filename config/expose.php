@@ -13,7 +13,7 @@ return [
     | Feel free to host your own server and change this value.
     |
     */
-    'host' => 'sharedwithexpose.com',
+    'host' => 'share.4raum.co',
 
     /*
     |--------------------------------------------------------------------------
@@ -149,7 +149,7 @@ return [
         | admin interface.
         |
         */
-        'validate_auth_tokens' => false,
+        'validate_auth_tokens' => true,
 
         /*
         |--------------------------------------------------------------------------
@@ -192,7 +192,7 @@ return [
         | request this subdomain for their own connection.
         |
         */
-        'subdomain' => 'expose',
+        'subdomain' => 'admin',
 
         /*
         |--------------------------------------------------------------------------
